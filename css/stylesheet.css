@@ -86,15 +86,9 @@ h1, h3{
 }
 
 .rule-pad, .event-pad, .faction-pad, .contest-pad .fam-pad, .con-pad, .lore-pad{
-  padding-top: 5%;
-  margin-top: 7%;
+  margin-top: 15%;
 }
 
-
-
-.war-pad{
-margin-top: 15%;
-}
 /* -------------------Images--------------------------- */
 #rule-img{
 width: 30%;
@@ -149,6 +143,7 @@ a{
   position: relative;
   
 }
+
 .contestant-name{
 text-align: center;
 }
