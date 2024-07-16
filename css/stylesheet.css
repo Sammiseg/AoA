@@ -85,8 +85,8 @@ h1, h3{
   
 }
 
-.rule-pad, .event-pad, .faction-pad, .contest-pad .fam-pad, .con-pad, .lore-pad{
-  margin-top: 15%;
+.rule-pad, .event-pad, .faction-pad, .contest-pad, .fam-pad, .con-pad, .lore-pad{
+  padding-top: 10%;
 }
 
 /* -------------------Images--------------------------- */
