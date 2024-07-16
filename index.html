@@ -1,369 +1,219 @@
-.navbar-custom .navbar-brand{
-  color: #EE4B2B;
-}
-.navbar-brand img{
-  position: inherit;
-  width: auto;
-  height: 40px;
-  background: transparent;
-}
-.navbar-custom .dropdown-item{
-  color: darkgray;
-}
-/*<---------------------------------------> */
-img{
-  padding: 5px;
-  margin: 5px;
-}
-.box{
-  height: 400px; width:auto
-}
-.welcome{
-  background-image:url(../image/home.png);
-  background-color: rgb(0,0,0);
-  background-size:100% 100%;
-  background-repeat: no-repeat;
-  padding: auto;
-  position: relative;
-  padding-top: 20px;
-}
-body{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: rgba(138, 132, 132, 0.993);
-}
-.index-main p{
-  width: 50%;
-  margin-left: 25%;
-}
-p{
-  font-family: Arial, Helvetica, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AoA Server</title>
+    <!-- CSS Style on bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!------------------------------------------------------------------------->
 
-.page{
-  background-image:url(../image/page.png), url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto 55%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
+    <link rel="stylesheet" href="css/stylesheet.css" />
+  </head>
+  <body class="page">
+    <nav
+      class="navbar navbar-expand-md fixed-top navbar-dark bg-dark navbar-custom"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="image/AoA_Logo1.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rules.html">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="factions.html">Factions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contest.html">Contest</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Horsemen
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li>
+                  <a class="dropdown-item" href="death.html">Death</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="war.html">War</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disable" href="conquest.html">Conquest</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disable" href="famine.html">Famine</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disable" href="lore.html">Lore Continued</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://discord.gg/ageofapocalypse"
+                target="”_blank”"
+                >Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="welcome container-fluid box"></div>
+    <div class="container background">
+      <h1 class="title">
+        <span>Age of Apocalypse</span>
+      </h1>
+      <div class="index-main text-wrap text-left">
+        <p>
+          Welcome! We are happy you stopped by to see our lovely website. Do you
+          enjoy a scary theme? Do you love rules, do you not like mix packing of
+          diets? How about a friendly group of people wanting to help you out
+          when they can? Then this server is for you! Let me introduce you to
+          the owners and staff hmm?
+        </p>
+        <hr />
+        <h3 class="container-fluid">Owner</h3>
+        <hr />
+        <br />
+        <h5 class="text-center">Helios</h5>
+        <p>
+          Ive been gaming since i can remember, been a staff on many different
+          servers and games and an owner on three. Im 25 years old and a
+          Corrections Officer. What makes being a staff worth it to me is being
+          able to bring joy to the players and create a space where people can
+          let loose and have fun and escape their everyday lives.
+        </p>
 
-h1, h3{
-  text-align: center;
-}
+        <h5 class="war text-center">
+          <span class="name">ChickenNdlSoup</span>
+          <span class="horse">War</span>
+        </h5>
+        <p>
+          I’ve been gaming since I was very little. I’m 25 years old. I work as
+          a Beer Vendor because hey someone’s gotta keep everyone drunk 😆. What
+          I love most about being part of the staff is to be able to make a
+          space for everyone to have fun and just enjoy this game we all love to
+          play!
+        </p>
+        <hr />
+        <h3>Staff</h3>
+        <hr />
+        <br />
 
-/* ----------------------------------------- */
-.title > span{
-  background: linear-gradient(50deg,rgb(255,40,20), rgb(255,140,0) 50%, red);
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1.5px black;
-  background-clip: text;
-}
-.title{
-  text-align: center;
-  color: transparent;
-}
+        <h5 class="con text-center">
+          <span class="name">GeneralSnowOwl</span>
+          <span class="horse">Conquest</span>
+        </h5>
+        <p>
+          About me: I'm just your socially awkward, herbie main who loves duckin
+          around. I have a husband and 4 pups which you will see pictures of
+          often. I can often be found around Triad or the surrounding area since
+          my dinos have called that home for a while now. I'm a big fan of
+          ceratopsians, hadrosaurs and the duck. I'm looking forward to
+          providing an environment where people feel heard and respected💜
+          <br />
+          DM's are open as long as you remain respectful in there.
+        </p>
 
-/*------------------------------------------*/
-.name{
-  color: rgba(138, 132, 132, 0.993);
-}
-.death, .con, .fam, .war, .lead, .lore{
-  color: transparent;
-}
-/*<-------------------------------------------------------------------------> */
+        <h5 class="fam text-center">
+          <span class="name">AngelHasFallen</span>
+          <span class="horse">Famine</span>
+        </h5>
+        <p>
+          Hey y’all I’m Angel - Famine, on AoA you’ll almost always find me just
+          hanging around or raising some babies 💚 I swap a lot between Carni or
+          Herbi, so if you ever want someone to quest/grow off of I’m always
+          willing help out! IRL you’ll find me on horseback or on the lake in
+          the summer, or bundled up with a book and my dogs in the winter. I’ve
+          worked in the medical field for several years now, and I like to stay
+          pretty busy in general. If you ever have any questions or need some
+          help with anything feel free to reach out!
+        </p>
+        <h5 class="death text-center">
+          <span class="name">Freebird</span>
+          <span class="horse">Death</span>
+        </h5>
+        <p>
+          Hey there everyone names FreeBird. I'm Death over at AoA and will
+          exclusively find me over there. I play all types of dinos depending on
+          what the pop is at the time as well as what my friends want to play. I
+          love playing video games and just hanging out with others while we all
+          play other games or the same game. Just getting into D&D as well as
+          anime, so far my favorite show is Demon Slayer.
+          <br />
+          I am always open to DM's for any questions so feel free to reach out
+          at anytime. 💜
+        </p>
 
-.rule{
-  background-image:url(../image/page.png), url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto 120%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-  
-}
-
-.rule-pad, .event-pad, .faction-pad, .contest-pad .fam-pad, .con-pad, .lore-pad{
-  padding-top: 5%;
-  margin-top: 7%;
-}
-
-
-
-.war-pad{
-margin-top: 15%;
-}
-/* -------------------Images--------------------------- */
-#rule-img{
-width: 30%;
-}
-
-.img{
-float: right;
-}
-
-.img-header{
-width: 40%;
-}
-
-a{
-  text-decoration: none;
-  color: yellow;
-}
-
-
-.link{
-  text-align: center;
-}
-/*<-------------------------------------->*/
-.event{
-  background-image: url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto;
-  background-repeat: repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-.faction{
-  background-image: url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-  
-}
-/*<----------Contest page---------->*/
-.contest{
-  background-image: url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-  
-}
-.contestant-name{
-text-align: center;
-}
-.contest-image{
-width:"100%"; 
-height:"225";
-}
-
-.card{
-margin: 10px;
-}
-
-.card-text{
-color: black;
-}
-
-.chapter{
-margin: 5% auto;
-text-align: center;
-}
-/*<----------Death Page---------->*/
-.death > .horse{
-  background: linear-gradient(70deg, rgb(88, 88, 231), rgb(218, 196, 196), rgba(123, 121, 134, 0.726)30%);
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1px rgb(133, 116, 116);
-  background-clip: text;
-}
-
-.death-pad{
-  margin-top: 15%;
-  }
-.death-page{
-background-image:url(../image/page.png), url(../image/page.png);
-background-color: rgb(0,0,0);
-background-size: auto 75%;
-background-repeat: no-repeat;
-background-position: center top, center bottom;
-padding: auto;
-position: relative;
-
-}
-
-.death-main p{
-width: 55%;
-margin-left: 25%;
-}
-/*<----------War Page---------->*/
-.war-background{
-  background-image: url(../horsemen/war-background.png);
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-.war > .horse{
-  background: linear-gradient(70deg, rgb(136, 8, 8), rgb(246,80,38) 40%,  rgb(136, 8, 8));
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1px rgba(175, 44, 77, 0.678);
-  background-clip: text;
-}
-.war-main p{
-width: 55%;
-margin-left: 25%;
-}
-.war-box{
-  height: 400px; 
-  width: auto;
-  margin-top: 10%;
-}
-
-.war-page{
-  background-image:url(../image/page.png);
-  background-color: rgb(0,0,0);
-  background-size: auto 40%;
-  background-repeat: repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-/* <---------------Conquest Page----------------> */
-
-.con > .horse{
-  background: linear-gradient(70deg, rgb(143,0,255), rgb(255,223,0) 50%,   rgb(143,0,255));
-  -webkit-background-clip: text;
-  background-clip: text;
-}
-.con-main p{
-  width: 55%;
-  margin-left: 25%;
-  }
-  .con-box{
-    height: 400px; 
-    width: 100%;
-    margin-top: 10%;
-  }
-
-.con-page{
-  /* background-image:url(../horsemen/conquest-background.png); */
-  background-color: rgb(0,0,0);
-  background-size: auto 50%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-.con-background{
-  background-image:url(../horsemen/conquest-background.png);
-  background-color: rgb(0,0,0);
-  background-size:100% 100%;
-  background-repeat: no-repeat;
-  padding: auto;
-  position: relative;
-  padding-top: 20px;
-}
-/*<---------------------------------------------------------->*/
-
-.fam > .horse{
-  background: linear-gradient(70deg, rgb(18,53,36), rgb(0,255,0) ,  rgba(100, 158, 130, 0.719) 90%);
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1px rgba(100, 105, 86, 0.678);
-  background-clip: text;
-}
-
-.fam-main p{
-  width: 55%;
-  margin-left: 25%;
-  }
-  .fam-box{
-    height: 400px; 
-    width: 100%;
-    margin-top: 10%;
-  }
-
-.fam-page{
-  /* background-image:url(../horsemen/conquest-background.png); */
-  background-color: rgb(0,0,0);
-  background-size: auto 50%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-.fam-background{
-  background-image:url(../horsemen/conquest-background.png);
-  background-color: rgb(0,0,0);
-  background-size:100% 100%;
-  background-repeat: no-repeat;
-  padding: auto;
-  position: relative;
-  padding-top: 20px;
-}
-
-/*<---------------------------Lore page----------------------->*/
-.lore > .horse{
-  background: linear-gradient(70deg, rgb(88, 88, 231), rgb(136, 8, 8), rgb(255,223,0) 50%,rgba(100, 158, 130, 0.719));
-  -webkit-background-clip: text;
-  -webkit-text-stroke: 1px rgb(133, 116, 116);
-  background-clip: text;
-}
-
-.lore-box{
-  height: 400px; width: 100%
-}
-
-.lore-main p{
-  width: 55%;
-  margin-left: 25%;
-  }
-  .lore-box{
-    height: 400px; 
-    width: 100%;
-    margin-top: 10%;
-  }
-
-.lore-page{
-  /* background-image:url(../horsemen/conquest-background.png); */
-  background-color: rgb(0,0,0);
-  background-size: auto 50%;
-  background-repeat: no-repeat;
-  background-position: center top, center bottom;
-  padding: auto;
-  position: relative;
-}
-
-.lore-background{
-  /* background-image:url(); */
-  background-color: rgb(0,0,0);
-  background-size:100% 100%;
-  background-repeat: no-repeat;
-  padding: auto;
-  position: relative;
-  padding-top: 20px;
-}
-
-/*<----------------------------------------------=------------>*/
-
-
-@media screen and (max-width: 768px) {
-  .rule-pad, .event-pad, .faction-pad, .contest-pad{
-      padding-top: 10%;
-      margin-top: 10%;
-  }
-  .death-pad{
-    padding-top: 15%;
-    margin-top: 20%;
-  }
-  .war-pad{
-    padding-top: 15%;
-    margin-top: 20%;
-  }
-  }
-
-  
+        <h5 class="text-center">Puppysaurus</h5>
+        <p>
+          80-100 words per minute typing speed, there is no escape from my
+          reminders to stretch, drink water, and be kind to yourself and others.
+          Helping people and the environment are my biggest joys in life. If
+          you're smiling, I am too. I promise to do my best as a mod!
+        </p>
+        <h5 class="text-center">Kenketsu Undo</h5>
+        <p>
+          Hello! I am Kenketsu, but many people simply call me Ken. I'm one of
+          AOA's mods and I generally play herbivores, but you might
+          occassionally see me sporting some teeth every once in a while! I'm
+          quite the busy body, but my love for all things fantasy and science
+          means I'll probably be able to chime in on any subject if you ask!
+          <br />
+          <br />
+          For questions or just general conversation, I am a Discord message
+          away!
+        </p>
+        <h5 class="text-center">PhoenixFire-ENS</h5>
+        <p>
+          Hello, Phoenix is whateveryone calls me or Chaos Aussie. I love
+          playing the Aussie, I just graduated from College and I am proud to be
+          part of the staff. Part of HL faction I am usually with sharp teeth,
+          but I am sometimes on herbi.
+          <br />
+          If you have any questions or concerns lmk I'm always happy to help.
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
